@@ -1,0 +1,17 @@
+{
+  "name": "Sparrow",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "Error: no test specified exit 1",
+    "start": "nodemon server.js"
+  },
+  "keywords": [],
+  "author": "Vladyslava Budko",
+  "license": "ISC",
+  "dependencies": {
+    "fs": "0.0.1-security",
+    "node-static": "^0.7.11"
+  }
+}

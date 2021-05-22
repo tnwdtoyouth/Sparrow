@@ -1,0 +1,44 @@
+body{
+    background-image: url(../image/back.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+.main{
+    color: white;
+    width: 40%;
+    text-align: center;
+}
+h1{
+    margin: 100px auto 50px;
+}
+h2{
+    margin-bottom: 40px;
+    font-weight: normal;
+}
+.buttons-cont .cont{
+    float: left;
+    margin: 20px 40px;
+}
+.btn{
+    width: 150px;
+    height: 50px;
+    color: white;
+    font-size: 16px;
+}
+.btn-main{
+    border: 2px solid white;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0);
+}
+.btn-main:hover{
+    background-color: white;
+    color: rgb(78, 167, 240);
+    border-color: rgba(255, 255, 255, 0);
+    cursor: pointer;
+}
+
+
+

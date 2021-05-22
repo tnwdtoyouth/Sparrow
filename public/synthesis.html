@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="ua">
+    <head>
+        <meta charset="UTF-8">
+        <title></title>
+        <meta name="viewport" content="width=device-width">
+        <link rel="stylesheet" href="style/synth.css">
+    </head>
+    <body>
+        <section>
+            <h1>Синтез речи</h1>
+            <p>
+              Введите текст в поле ниже и нажмите кнопку "Play", чтобы прослушать запись. Выбирайте возможные голоса из списка
+              ниже
+            </p>
+            <form>
+              <input type="text" class="text">
+              <div class="row">
+                <div class="values-box">
+                  <div class="value-box">
+                    <div>Темп (Rate)</div>
+                    <div class="value value--rate-value">1</div>
+                  </div>
+                  <div class="value-box">
+                    <div>Диапазон (Pitch)</div>
+                    <div class="value value--pitch-value">1</div>
+                  </div>
+                </div>
+                <div class="ranges-box">
+                  <input type="range" min="0.5" max="2" value="1" step="0.1" id="rate">
+                  <input type="range" min="0" max="2" value="1" step="0.1" id="pitch">
+                </div>
+              </div>
+        
+              </div>
+        
+              <select>
+              </select>
+        
+              <button id="play" type="submit">Play</button>
+            </form>
+          </section>
+        
+            
+  
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="script/synthesis.js"></script>
+    </body>
+</html>
